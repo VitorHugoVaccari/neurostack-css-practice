@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.superior {
+    background-color: #1F2937;
+    padding: 0px 80px;
+    padding-bottom: 60px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+img {
+    display: flex;
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+header p {
+    color: white;
+}
+
+header a {
+    color: gray;
+    text-decoration: none;
+    gap: 20px;
+}
+
+#header-links {
+    display: flex;
+    gap: 20px;
+}
+
+#div-hd {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.superior-text-img {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    height: auto;
+}
+
+#hero-main-text {
+    color: #f9faf8;
+    width: 50%;
+    font-weight: 900;
+}
+
+.superior-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.superior-img {
+    display: flex;
+    width: 50%;
+    padding: 0;
+    margin: 0;
+}
+
+.superior-text p {
+    color: gray;
+    width: 50%;
+    margin: 10px 0px;
+}
+
+#getStarted-btn {
+    font-size: 18px;
+    color: white;
+    background-color: #3882f6;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    width: 22%;
+    height: auto;
+}
