@@ -110,7 +110,8 @@ header a {
   padding: 10px;
   border: none;
   border-radius: 10px;
-  width: 22%;
+  min-width: 22%;
+  max-width: 50%;
   height: auto;
   transition: 1s
 }
