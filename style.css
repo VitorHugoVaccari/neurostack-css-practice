@@ -123,3 +123,33 @@ header a {
 .main1-card span {
     font-weight: bold;
 }
+
+#main2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 50px;
+}
+
+.main2-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    gap: 50px;
+    max-width: 1200px;
+}
+
+.frase-cto {
+    font-style: italic;
+    color: #2f2e3c;
+    font-size: 40px;
+}
+
+.by-cto {
+    display: flex;
+    justify-content: end;
+    font-size: 20px;
+    font-weight: bold;
+}
